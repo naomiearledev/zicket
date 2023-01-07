@@ -31,6 +31,11 @@ const routes = [
     path: '/faqs',
     name: 'faqs',
     component: () => import('../views/FaqsView.vue')
+  },
+  {
+    path: '/get-zicket',
+    name: 'get-zicket',
+    component: () => import('../views/GetZicketView.vue')
   }
 ]
 

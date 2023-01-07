@@ -1,23 +1,17 @@
 <template>
   <TopBanner />
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/features">Features</router-link>
-    <router-link to="/clients">Clients</router-link>
-    <router-link to="/news">News</router-link>
-    <router-link to="/faqs">FAQs</router-link>
-  </nav>
   <router-view/>
 </template>
 
 <script>
   import TopBanner from '@/components/TopBanner.vue'
+  import Navigation from '@/components/Navigation.vue'
 
   export default {
   name: 'App',
   components: {
-    TopBanner
+    TopBanner,
+    Navigation
   }
 }
 </script>
