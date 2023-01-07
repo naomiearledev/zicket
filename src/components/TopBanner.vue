@@ -2,7 +2,7 @@
   <div class="top-banner">
     <caption>
       <p>Looking to buy tickets to an event?</p>
-      <a href="~/tickets">Get them here</a></caption>
+      <a href="/tickets">Get them here</a></caption>
   </div>
 </template>
 
