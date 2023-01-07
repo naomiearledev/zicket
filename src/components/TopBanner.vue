@@ -1,7 +1,8 @@
 <template>
   <div class="top-banner">
-    <p>Looking to buy tickets to an event?</p>
-    <a href="~/tickets">Get them here</a>
+    <caption>
+      <p>Looking to buy tickets to an event?</p>
+      <a href="~/tickets">Get them here</a></caption>
   </div>
 </template>
 
@@ -17,12 +18,15 @@ export default {
 <style lang="less">
 .top-banner {
   background-color: #2C0D6F;
-  display: flex;
-  justify-content: center;
-  padding: 1rem 0;
+  padding: 1.25rem 0;
   
-  p {
+  caption {
     color: #B3A7E3;
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
     margin-right: 1rem;
   }
 
