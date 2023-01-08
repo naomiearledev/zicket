@@ -1,19 +1,18 @@
 <template>
-  <Navigation />
   <div class="home">
-    <h1>This is a home page</h1>
+    <Jumbotron />
   </div>
 </template>
 
 <script>
 import TopBanner from '@/components/TopBanner.vue'
-import Navigation from '@/components/Navigation.vue'
+import Jumbotron from '@/components/Jumbotron.vue'
 
 export default {
   name: 'HomeView',
   components: {
     TopBanner,
-    Navigation
+    Jumbotron
   }
 }
 </script>

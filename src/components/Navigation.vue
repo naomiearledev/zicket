@@ -31,6 +31,8 @@ export default {
 
 <style lang="less">
 .navigation {
+  width: 100%;
+  
   nav {
     display: flex;
     justify-content: space-between;
@@ -50,6 +52,11 @@ export default {
 
   &_links a {
     margin: 0 1rem;
+    color: #fff;
+
+    &.router-link-exact-active {
+      color: #2C0D6F;
+    }
 
     &:hover {
       color: #F93B84;
