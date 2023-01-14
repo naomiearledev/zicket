@@ -46,8 +46,6 @@ export default {
 <style lang="less">
 .feature-abstract {
   display: flex;
-  max-width: 850px;
-  margin: 0 auto;
   padding: 2rem 0;
 
   &_image {
